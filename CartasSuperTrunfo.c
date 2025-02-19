@@ -13,7 +13,7 @@ int main() {
 		
 		printf("			Bem Vindo ao Super Trunfo!\n");
 	
-		printf("\nInforme o estado da carta 1: \n"); //a partir daqui, usuário entrará com todos referente a carta 1
+		printf("\nInforme o estado da carta 1: \n"); //a partir daqui, usuário entrará com todos os dados referente a carta 1
 		scanf("%s", &estado1);
 		printf("Informe o código da carta 1: \n");
 		scanf("%s", &ccarta1);
@@ -30,7 +30,7 @@ int main() {
 	
 	
 		
-		printf("\nInforme o estado da carta 2: \n"); //a partir daqui, usuário entrará com todos referente a carta 1
+		printf("\nInforme o estado da carta 2: \n"); //a partir daqui, usuário entrará com todos os dados referente a carta 1
 		scanf("%s", &estado2);
 		printf("Informe o código da carta 2: \n");
 		scanf("%s", &ccarta2);
