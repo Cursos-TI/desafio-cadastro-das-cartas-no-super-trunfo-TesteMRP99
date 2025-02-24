@@ -25,7 +25,7 @@
 		
 		printf("			Bem Vindo ao Super Trunfo!\n");
 	
-					//a partir daqui segundo usuário entrará com todos referente a carta 2		
+					//a partir daqui o usuário entrará com os dados da primeira carta		
 		printf("\nInforme o estado da carta 1: \n"); 
 		scanf("%s", estado1);
 		printf("Informe o código da carta 1: \n");
@@ -42,7 +42,7 @@
 		scanf("%d", &pt1);
 	
 	
-				//a partir daqui segundo usuário entrará com todos referente a carta 2	
+				//a partir daqui usuário entrará com os dados da segunda carta
 		printf("\nInforme o estado da carta 2: \n"); 
 		scanf("%s", &estado2);
 		printf("Informe o código da carta 2: \n");
