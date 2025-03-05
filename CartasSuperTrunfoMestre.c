@@ -2,9 +2,9 @@
 	
 
 	int main() {
-		char estado1[10], estado2[10]; 	//variavel que para o usuário informar o estado
+		char estado1, estado2; 	//variavel que para o usuário informar o estado
 		char ccarta1[10], ccarta2[10];  //variavel para o usuário informar o código da carta;
-		char cidade1[50], cidade2[50];  //variavel para o usuário informar o nome da cidade
+		char cidade1[20], cidade2[20];  //variavel para o usuário informar o nome da cidade
 		
 		unsigned long int pop1, pop2; 	//variavel para o usuário informar o total populacional da cidade.
 		float area1, area2;				//variavel para o usuário informar o total da area em km
@@ -27,7 +27,7 @@
 	
 					//a partir daqui o usuário entrará com os dados da primeira carta		
 		printf("\nInforme o estado da carta 1: \n"); 
-		scanf("%s", estado1);
+		scanf("%c", estado1);
 		printf("Informe o código da carta 1: \n");
 		scanf("%s", &ccarta1);
 		printf("Informe o nome da cidade da carta 1: \n");
@@ -44,7 +44,7 @@
 	
 				//a partir daqui usuário entrará com os dados da segunda carta
 		printf("\nInforme o estado da carta 2: \n"); 
-		scanf("%s", &estado2);
+		scanf("%c", &estado2);
 		printf("Informe o código da carta 2: \n");
 		scanf("%s", &ccarta2);
 		printf("Informe o nome da cidade da carta 2: \n");
